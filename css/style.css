@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#dfe6e9;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#title{
+    font-size: 4rem;
+    text-align: center;
+    margin:3rem;
+}
+
+#description{
+    font-size: 2rem;
+    margin:2rem 20rem 2rem 20rem;
+    text-align: justify;
+}
+p{
+    margin-bottom: 2rem;
+}
+
+#input-container{
+    text-align: center;
+}
+
+#icon{
+    margin-right:10rem;
+}
+
+/* INPUT VALIDITY */
+input:invalid {
+    background-color: orangered;
+  }
+
+input:valid {
+background-color: lightgreen;
+}

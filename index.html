@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Regular Expressions</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <h1 id="title">Regular Expressions</h1>
+        <div id="description">
+            <p>
+                Green indicates valid or no input. Red indicates invalid input.
+            </p>
+            <p>
+                The regular expressions for the date and U.S. telephone numbers are overshadowed by their corresponding
+                input
+                types: "tel" and "date". The regular expressions can be found in the script or in the pattern attrbiute
+                of
+                the
+                input.
+            </p>
+        </div>
+
+        <div id="input-container">
+            <select id="regex-options">
+                <option value="U.S. Telephone Number" selected>U.S. Telephone Number</option>
+                <option value="Date">Date</option>
+            </select>
+            <input type="tel" name="phone_num" id="user-input"
+                pattern="^(1\s?)?(\((\d{3})\)|\d{3})[\s-]*\d{3}[\s-]*\d{4}$" />
+            <i id="icon" class="fas fa-phone"></i>
+        </div>
+
+    </main>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
